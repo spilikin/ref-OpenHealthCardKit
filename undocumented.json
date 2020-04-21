@@ -1,0 +1,1041 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/CardReaderProviderApi/Command/APDU.swift",
+      "line": 9,
+      "symbol": "APDU.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/CardReaderProviderApi/Model/ProviderDescriptor.swift",
+      "line": 15,
+      "symbol": "ProviderDescriptor.init(_:_:_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ApplicationIdentifier.swift",
+      "line": 14,
+      "symbol": "ApplicationIdentifier.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ApplicationIdentifier.swift",
+      "line": 15,
+      "symbol": "ApplicationIdentifier.Error.illegalArgument(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ApplicationIdentifier.swift",
+      "line": 16,
+      "symbol": "ApplicationIdentifier.Error.invalidLength(length:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ApplicationIdentifier.swift",
+      "line": 25,
+      "symbol": "ApplicationIdentifier.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ApplicationIdentifier.swift",
+      "line": 29,
+      "symbol": "ApplicationIdentifier.init(hex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/CardObjectIdentifierType.swift",
+      "line": 8,
+      "symbol": "CardObjectIdentifierType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/CardObjectIdentifierType.swift",
+      "line": 17,
+      "symbol": "CardObjectIdentifierType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/DedicatedFile.swift",
+      "line": 9,
+      "symbol": "DedicatedFile.aid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/DedicatedFile.swift",
+      "line": 10,
+      "symbol": "DedicatedFile.fid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/DedicatedFile.swift",
+      "line": 12,
+      "symbol": "DedicatedFile.init(aid:fid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ElementaryFile.swift",
+      "line": 9,
+      "symbol": "ElementaryFile.fid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ElementaryFile.swift",
+      "line": 10,
+      "symbol": "ElementaryFile.sfid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ElementaryFile.swift",
+      "line": 12,
+      "symbol": "ElementaryFile.init(fid:sfid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 9,
+      "symbol": "FileControlParameter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 70,
+      "symbol": "FileControlParameter.tag",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 72,
+      "symbol": "FileControlParameter.Tag",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 74,
+      "symbol": "FileControlParameter.Tag.numberOfOctets",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 76,
+      "symbol": "FileControlParameter.Tag.fileDescriptor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 78,
+      "symbol": "FileControlParameter.Tag.fileIdentifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 80,
+      "symbol": "FileControlParameter.Tag.applicationIdentifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 84,
+      "symbol": "FileControlParameter.Tag.shortFileIdentifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 86,
+      "symbol": "FileControlParameter.Tag.lifeCycleStatus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 89,
+      "symbol": "FileControlParameter.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 96,
+      "symbol": "FileControlParameter.fileIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 97,
+      "symbol": "FileControlParameter.applicationIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 98,
+      "symbol": "FileControlParameter.shortFileIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 100,
+      "symbol": "FileControlParameter.init(status:size:fileDescriptor:fid:aid:shortFid:readSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 111,
+      "symbol": "FileControlParameter.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 112,
+      "symbol": "FileControlParameter.Error.illegalArgument(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 113,
+      "symbol": "FileControlParameter.Error.asn1ParseError(asn1:reason:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 114,
+      "symbol": "FileControlParameter.Error.invalidCard(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileControlParameter.swift",
+      "line": 198,
+      "symbol": "FileControlParameter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileIdentifier.swift",
+      "line": 21,
+      "symbol": "FileIdentifier.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/FileIdentifier.swift",
+      "line": 25,
+      "symbol": "FileIdentifier.init(hex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Format2Pin.swift",
+      "line": 15,
+      "symbol": "Format2Pin.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Format2Pin.swift",
+      "line": 16,
+      "symbol": "Format2Pin.Error.illegalArgument(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/GemCvCertificate.swift",
+      "line": 11,
+      "symbol": "GemCvCertificate.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/GemCvCertificate.swift",
+      "line": 12,
+      "symbol": "GemCvCertificate.Error.unexpected(tag:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/GemCvCertificate.swift",
+      "line": 13,
+      "symbol": "GemCvCertificate.Error.missing(tag:source:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/GemCvCertificate.swift",
+      "line": 14,
+      "symbol": "GemCvCertificate.Error.missingTagParameter",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Key.swift",
+      "line": 7,
+      "symbol": "Key",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Key.swift",
+      "line": 8,
+      "symbol": "Key.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Key.swift",
+      "line": 9,
+      "symbol": "Key.Error.illegalArgument(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Key.swift",
+      "line": 15,
+      "symbol": "Key.keyId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Key.swift",
+      "line": 17,
+      "symbol": "Key.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Password.swift",
+      "line": 12,
+      "symbol": "Password.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Password.swift",
+      "line": 13,
+      "symbol": "Password.Error.illegalArgument(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Password.swift",
+      "line": 16,
+      "symbol": "Password.pwdId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/Password.swift",
+      "line": 18,
+      "symbol": "Password.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ShortFileIdentifier.swift",
+      "line": 14,
+      "symbol": "ShortFileIdentifier.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ShortFileIdentifier.swift",
+      "line": 15,
+      "symbol": "ShortFileIdentifier.Error.illegalArgument(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ShortFileIdentifier.swift",
+      "line": 28,
+      "symbol": "ShortFileIdentifier.isValid(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ShortFileIdentifier.swift",
+      "line": 47,
+      "symbol": "ShortFileIdentifier.init(hex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/CardObjects/ShortFileIdentifier.swift",
+      "line": 56,
+      "symbol": "ShortFileIdentifier.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommand+AccessStructuredData.swift",
+      "line": 209,
+      "symbol": "HealthCardCommand.ResponseMessages",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommand+AccessTransparentData.swift",
+      "line": 10,
+      "symbol": "HealthCardCommand.byteModulo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommand+ManageSE.swift",
+      "line": 147,
+      "symbol": "HealthCardCommand.ManageSE.DomainId.brainpoolP256r1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommand+ManageSE.swift",
+      "line": 148,
+      "symbol": "HealthCardCommand.ManageSE.DomainId.brainpoolP384r1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommand+ManageSE.swift",
+      "line": 149,
+      "symbol": "HealthCardCommand.ManageSE.DomainId.brainpoolP512r1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 137,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 138,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.offsetOutOfBounds(_:usingShortFileIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 139,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.recordDataSizeOutOfBounds(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 140,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.expectedLengthMustNotBeZero",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 141,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.expectedLengthNotAWildcardValue(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 142,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.wrongMACLength(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 143,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.wrongHashLength(_:expected:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 144,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.wrongSignatureLength(_:expected:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 145,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.unsupportedKey(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 146,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.illegalSize(_:expected:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 147,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.illegalValue(_:for:expected:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 148,
+      "symbol": "HealthCardCommandBuilder.InvalidArgument.illegalOid(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 151,
+      "symbol": "HealthCardCommandBuilder.checkValidity(offset:usingShortFileIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Commands/HealthCardCommandBuilder.swift",
+      "line": 163,
+      "symbol": "Int.isNot(_:else:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Extension/UInt8+Data.swift",
+      "line": 8,
+      "symbol": "UInt8.bytes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/HealthCardCommandType.swift",
+      "line": 8,
+      "symbol": "HealthCardCommandType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/HealthCardCommandType.swift",
+      "line": 14,
+      "symbol": "HealthCardCommandType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/HealthCardResponseType.swift",
+      "line": 8,
+      "symbol": "HealthCardResponseType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/HealthCardResponseType.swift",
+      "line": 13,
+      "symbol": "HealthCardResponseType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/HealthCardResponseType.swift",
+      "line": 14,
+      "symbol": "HealthCardResponseType.from(response:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Models/CAN.swift",
+      "line": 9,
+      "symbol": "CAN.InvalidCAN",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Models/CAN.swift",
+      "line": 10,
+      "symbol": "CAN.InvalidCAN.illegalValue(_:for:expected:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/Executor.swift",
+      "line": 7,
+      "symbol": "Executor",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/Executor.swift",
+      "line": 48,
+      "symbol": "Executor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/FutureError.swift",
+      "line": 7,
+      "symbol": "FutureError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/FutureError.swift",
+      "line": 8,
+      "symbol": "FutureError.completed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/FutureError.swift",
+      "line": 10,
+      "symbol": "FutureError.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/UnitFuture.swift",
+      "line": 11,
+      "symbol": "UnitFuture.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/UnitFuture.swift",
+      "line": 15,
+      "symbol": "UnitFuture.init(event:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/UnitFuture.swift",
+      "line": 21,
+      "symbol": "UnitFuture.on(event:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardAccess/Operation/UnitFuture.swift",
+      "line": 25,
+      "symbol": "UnitFuture.cancel(mayInterruptIfRunning:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Authentication/HealthCardType+VerifyPin.swift",
+      "line": 46,
+      "symbol": "ResponseStatus.retryCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/AES.swift",
+      "line": 140,
+      "symbol": "AES.CipherError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/AES.swift",
+      "line": 141,
+      "symbol": "AES.CipherError.aesDecryptionFailed(status:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/AES.swift",
+      "line": 142,
+      "symbol": "AES.CipherError.aesEncryptionFailed(status:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/AES.swift",
+      "line": 143,
+      "symbol": "AES.CipherError.cmacAuthenticationFailed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/AES.swift",
+      "line": 144,
+      "symbol": "AES.CipherError.AESCMACunsupported",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/ECPoint.swift",
+      "line": 23,
+      "symbol": "ECPoint.InvalidArgument",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/ECPoint.swift",
+      "line": 24,
+      "symbol": "ECPoint.InvalidArgument.empty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/ECPoint.swift",
+      "line": 25,
+      "symbol": "ECPoint.InvalidArgument.encodingNotSupported",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/ECPoint.swift",
+      "line": 26,
+      "symbol": "ECPoint.InvalidArgument.invalidPointEncoding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/ECPoint.swift",
+      "line": 27,
+      "symbol": "ECPoint.InvalidArgument.invalidInfinityEncoding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/ECPoint.swift",
+      "line": 131,
+      "symbol": "Data.dropLeadingZeroByte",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/ECPoint.swift",
+      "line": 139,
+      "symbol": "Data.padWithLeadingZeroes(totalLength:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Crypto/ECPoint.swift",
+      "line": 149,
+      "symbol": "BigInt.fromUnsignedData(buf:off:length:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Operations/CardChannelType+Version.swift",
+      "line": 25,
+      "symbol": "HealthCardPropertyType.from(cardAid:cardVersion2:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Operations/CardChannelType+Version.swift",
+      "line": 42,
+      "symbol": "CardChannelType.expectedLengthWildcard",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Operations/HealthCard+Error.swift",
+      "line": 9,
+      "symbol": "HealthCard.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Operations/HealthCardType+ReadFile.swift",
+      "line": 15,
+      "symbol": "ReadError.fcpMissingReadSize(state:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Operations/HealthCardType+ReadFile.swift",
+      "line": 18,
+      "symbol": "SelectError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Operations/HealthCardType+ReadFile.swift",
+      "line": 19,
+      "symbol": "SelectError.failedToSelectAid(_:status:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/Operations/HealthCardType+ReadFile.swift",
+      "line": 20,
+      "symbol": "SelectError.failedToSelectFid(_:status:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/AES128PaceKey.swift",
+      "line": 10,
+      "symbol": "CommandType.isPaceKeyEncrypted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/AES128PaceKey.swift",
+      "line": 278,
+      "symbol": "AES128PaceKey.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/AES128PaceKey.swift",
+      "line": 279,
+      "symbol": "AES128PaceKey.Error.apduAlreadyEncrypted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/AES128PaceKey.swift",
+      "line": 280,
+      "symbol": "AES128PaceKey.Error.encryptedResponseMalformed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/AES128PaceKey.swift",
+      "line": 281,
+      "symbol": "AES128PaceKey.Error.secureMessagingMacVerificationFailed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/HealthCardType+EfCardAccess.swift",
+      "line": 12,
+      "symbol": "HealthCardType.determineKeyAgreementAlgorithm(writeTimeout:readTimeout:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/HealthCardType+EfCardAccess.swift",
+      "line": 63,
+      "symbol": "ASN1Kit.ObjectIdentifier.keyAgreementAlgorithm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 15,
+      "symbol": "KeyAgreement.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 16,
+      "symbol": "KeyAgreement.Error.illegalArgument",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 17,
+      "symbol": "KeyAgreement.Error.unexpectedFormedAnswerFromCard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 18,
+      "symbol": "KeyAgreement.Error.resultOfEcArithmeticWasInfinite",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 19,
+      "symbol": "KeyAgreement.Error.macPcdVerificationFailedOnCard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 20,
+      "symbol": "KeyAgreement.Error.macPiccVerificationFailedLocally",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 21,
+      "symbol": "KeyAgreement.Error.noValidHealthCardStatus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 22,
+      "symbol": "KeyAgreement.Error.efCardAccessNotAvailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/KeyAgreement.swift",
+      "line": 23,
+      "symbol": "KeyAgreement.Error.unsupportedKeyAgreementAlgorithm(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/SecureCardChannel.swift",
+      "line": 9,
+      "symbol": "SecureCardChannel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/SecureCardChannel.swift",
+      "line": 33,
+      "symbol": "SecureCardChannel.init(session:card:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/SecureHealthCard.swift",
+      "line": 9,
+      "symbol": "SecureHealthCard",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/HealthCardControl/SecureMessaging/SecureHealthCard.swift",
+      "line": 21,
+      "symbol": "SecureHealthCard.init(session:card:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Card/NFCISO7816APDU+CommandType.swift",
+      "line": 10,
+      "symbol": "NFCISO7816APDU.init(command:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Provider/NFCCardReaderProvider.swift",
+      "line": 8,
+      "symbol": "NFCCardReaderProvider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Provider/NFCCardReaderProvider.swift",
+      "line": 9,
+      "symbol": "NFCCardReaderProvider.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader+NFCTagReaderSessionDelegate.swift",
+      "line": 11,
+      "symbol": "NFCCardReader.tagReaderSessionDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader+NFCTagReaderSessionDelegate.swift",
+      "line": 15,
+      "symbol": "NFCCardReader.tagReaderSession(_:didInvalidateWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader+NFCTagReaderSessionDelegate.swift",
+      "line": 21,
+      "symbol": "NFCCardReader.tagReaderSession(_:didDetect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 9,
+      "symbol": "NFCCardReader",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 12,
+      "symbol": "NFCCardReader",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 27,
+      "symbol": "NFCCardReader.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 28,
+      "symbol": "NFCCardReader.Error.noCardPresent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 29,
+      "symbol": "NFCCardReader.Error.transferException(name:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 30,
+      "symbol": "NFCCardReader.Error.sendTimeout",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 32,
+      "symbol": "NFCCardReader.Error.connectionError",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 36,
+      "symbol": "NFCCardReader.Error.illegalState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReaderController.swift",
+      "line": 10,
+      "symbol": "NFCCardReaderController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/tst_tt_build/Jenkins/workspace/OpenHealthCardKit-REF-SWIFT-LIB-CI"
+}
