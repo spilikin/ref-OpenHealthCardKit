@@ -341,9 +341,9 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/s:17OpenHealthCardKit0C4TypePAAE17openSecureSession3can12writeTimeout04readK0AA10ExecutableCyAA0bcE0_pGAA3CANV_S2dtF"></a>
+                      <a name="/s:17OpenHealthCardKit0C4TypePAAE17openSecureSession3can12writeTimeout04readK07Combine12AnyPublisherVyAA0gbcE0_ps5Error_pGAA3CANV_S2dtF"></a>
                       <a name="//apple_ref/swift/Method/openSecureSession(can:writeTimeout:readTimeout:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:17OpenHealthCardKit0C4TypePAAE17openSecureSession3can12writeTimeout04readK0AA10ExecutableCyAA0bcE0_pGAA3CANV_S2dtF">openSecureSession(can:writeTimeout:readTimeout:)</a>
+                      <a class="token" href="#/s:17OpenHealthCardKit0C4TypePAAE17openSecureSession3can12writeTimeout04readK07Combine12AnyPublisherVyAA0gbcE0_ps5Error_pGAA3CANV_S2dtF">openSecureSession(can:writeTimeout:readTimeout:)</a>
                       </code>
                         <span class="declaration-note">
                           Extension method
@@ -354,12 +354,12 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                       <section class="section">
                         <div class="pointer"></div>
                         <div class="abstract">
-                          <p>Open a secure session with a Card for further scheduling/attaching Executable commands</p>
+                          <p>Open a secure session with a Card for further scheduling/attaching Publisher commands</p>
 <div class="aside aside-note">
     <p class="aside-title">Note</p>
-    <p>the healthCard provided by the Executable operation chain should be used for the commands
-    to be executed on the secure channel. After the chain has completed the session should be
-    invalidated/closed.</p>
+    <p>The healthCard provided by the Combine operation chain should be used for the commands
+to be executed on the secure channel.
+After the chain has completed the session should be invalidated/closed.</p>
 
 </div>
 
@@ -369,7 +369,7 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                           <div class="language">
                             <p class="aside-title">Swift</p>
                             <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">openSecureSession</span><span class="p">(</span><span class="nv">can</span><span class="p">:</span> <span class="kt"><a href="../Structs/CAN.html">CAN</a></span><span class="p">,</span> <span class="nv">writeTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mi">30</span><span class="p">,</span> <span class="nv">readTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mi">30</span><span class="p">)</span>
-                <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Executable.html">Executable</a></span><span class="o">&lt;</span><span class="kt"><a href="../Protocols/HealthCardType.html">HealthCardType</a></span><span class="o">&gt;</span></code></pre>
+                <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Protocols.html#/s:17OpenHealthCardKit06SecurebC4TypeP">SecureHealthCardType</a></span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
 
                           </div>
                         </div>
@@ -418,7 +418,7 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                         </div>
                         <div>
                           <h4>Return Value</h4>
-                          <p>Executable<HealthCardType> that negotiates a secure session when scheduled to run.</p>
+                          <p>Publisher that negotiates a secure session when scheduled to run.</p>
                         </div>
                       </section>
                     </div>
@@ -452,12 +452,6 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Classes/CardReaderControllerObjcWrapper.html">CardReaderControllerObjcWrapper</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/Executable.html">Executable</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/Future.html">Future</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Classes/HealthCard.html">HealthCard</a>
@@ -504,15 +498,6 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                 <li class="nav-group-task">
                   <a href="../Classes/ProviderDescriptor.html">ProviderDescriptor</a>
                 </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/SecureCardChannel.html">SecureCardChannel</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/SecureHealthCard.html">SecureHealthCard</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/UnitFuture.html">UnitFuture</a>
-                </li>
               </ul>
             </li>
             <li class="nav-group-name">
@@ -530,6 +515,9 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                   <a href="../Enums/AutCertInfo.html">AutCertInfo</a>
                 </li>
                 <li class="nav-group-task">
+                  <a href="../Enums/CardAid.html">CardAid</a>
+                </li>
+                <li class="nav-group-task">
                   <a href="../Enums/CardError.html">CardError</a>
                 </li>
                 <li class="nav-group-task">
@@ -540,18 +528,6 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Enums/ECPoint/InvalidArgument.html">– InvalidArgument</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/Executor.html">Executor</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/FutureError.html">FutureError</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/FutureEvent.html">FutureEvent</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/FutureEvent/Error.html">– Error</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Enums/HealthCardPropertyType.html">HealthCardPropertyType</a>
@@ -590,12 +566,6 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Extensions/AES128PaceKey/Error.html">– Error</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/ASN1Kit.html">ASN1Kit</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/ASN1Kit/ObjectIdentifier.html">– ObjectIdentifier</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Extensions/BigInt.html">BigInt</a>
@@ -662,12 +632,6 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                   <a href="../Protocols/CommandType.html">CommandType</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Protocols/ExecutorType.html">ExecutorType</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Protocols/FutureType.html">FutureType</a>
-                </li>
-                <li class="nav-group-task">
                   <a href="../Protocols/HealthCardCommandType.html">HealthCardCommandType</a>
                 </li>
                 <li class="nav-group-task">
@@ -684,6 +648,9 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Protocols/ResponseType.html">ResponseType</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols.html#/s:17OpenHealthCardKit06SecurebC4TypeP">SecureHealthCardType</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Protocols/SecureMessaging.html">SecureMessaging</a>
@@ -793,7 +760,13 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                   <a href="../Structs/GemCvCertificate/Tag.html">– Tag</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Structs.html#/s:17OpenHealthCardKit13HbaFileSystemV">HbaFileSystem</a>
+                  <a href="../Structs/HbaFileSystem.html">HbaFileSystem</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Structs/HbaFileSystem/EF.html">– EF</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Structs/HbaFileSystem/DF.html">– DF</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Structs/HealthCardCommand.html">HealthCardCommand</a>
@@ -960,16 +933,7 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
                   <a href="../Typealiases.html#/s:17OpenHealthCardKit22AutCertificateResponsea">AutCertificateResponse</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Typealiases.html#/s:17OpenHealthCardKit8Callablea">Callable</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Typealiases.html#/s:17OpenHealthCardKit8Consumera">Consumer</a>
-                </li>
-                <li class="nav-group-task">
                   <a href="../Typealiases.html#/s:17OpenHealthCardKit18ECPointCoordinatesa">ECPointCoordinates</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Typealiases.html#/s:17OpenHealthCardKit8Functiona">Function</a>
                 </li>
               </ul>
             </li>
@@ -978,7 +942,7 @@ should use the format [0x0, 0x70, 0x0, 0x0, 0x1].</p>
       </div>
       <div class="footer-wrapper">
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="http://www.gematik.de" target="_blank" rel="external">gematik GmbH</a>. All rights reserved. (Last updated: 2020-04-22)</p>
+          <p>&copy; 2020 <a class="link" href="http://www.gematik.de" target="_blank" rel="external">gematik GmbH</a>. All rights reserved. (Last updated: 2020-06-16)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </div>

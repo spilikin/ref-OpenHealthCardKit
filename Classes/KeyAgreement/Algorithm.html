@@ -88,9 +88,9 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/s:17OpenHealthCardKit12KeyAgreementC9AlgorithmO016negotiateSessionE07channel3can12writeTimeout04readM0AA10ExecutableCyAA15SecureMessaging_pGAA0C11ChannelType_p_AA3CANVS2dtKF"></a>
-                      <a name="//apple_ref/swift/Method/negotiateSessionKey(channel:can:writeTimeout:readTimeout:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:17OpenHealthCardKit12KeyAgreementC9AlgorithmO016negotiateSessionE07channel3can12writeTimeout04readM0AA10ExecutableCyAA15SecureMessaging_pGAA0C11ChannelType_p_AA3CANVS2dtKF">negotiateSessionKey(channel:can:writeTimeout:readTimeout:)</a>
+                      <a name="/s:17OpenHealthCardKit12KeyAgreementC9AlgorithmO016negotiateSessionE04card3can12writeTimeout04readM07Combine12AnyPublisherVyAA15SecureMessaging_ps5Error_pGAA0bC4Type_p_AA3CANVS2dtF"></a>
+                      <a name="//apple_ref/swift/Method/negotiateSessionKey(card:can:writeTimeout:readTimeout:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:17OpenHealthCardKit12KeyAgreementC9AlgorithmO016negotiateSessionE04card3can12writeTimeout04readM07Combine12AnyPublisherVyAA15SecureMessaging_ps5Error_pGAA0bC4Type_p_AA3CANVS2dtF">negotiateSessionKey(card:can:writeTimeout:readTimeout:)</a>
                       </code>
                     </div>
                     <div class="height-container">
@@ -99,11 +99,6 @@
                         <div class="pointer"></div>
                         <div class="abstract">
                           <p>Negotiate a common key with a <code><a href="../../Classes/HealthCard.html">HealthCard</a></code> given its <code>CardAccessNumber</code></p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Error
-
-</div>
 
                         </div>
                         <div class="declaration">
@@ -111,11 +106,11 @@
                           <div class="language">
                             <p class="aside-title">Swift</p>
                             <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">negotiateSessionKey</span><span class="p">(</span>
-        <span class="nv">channel</span><span class="p">:</span> <span class="kt"><a href="../../Protocols/CardChannelType.html">CardChannelType</a></span><span class="p">,</span>
+        <span class="nv">card</span><span class="p">:</span> <span class="kt"><a href="../../Protocols/HealthCardType.html">HealthCardType</a></span><span class="p">,</span>
         <span class="nv">can</span><span class="p">:</span> <span class="kt"><a href="../../Structs/CAN.html">CAN</a></span><span class="p">,</span>
         <span class="nv">writeTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span>
         <span class="nv">readTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../../Classes/Executable.html">Executable</a></span><span class="o">&lt;</span><span class="kt"><a href="../../Protocols/SecureMessaging.html">SecureMessaging</a></span><span class="o">&gt;</span></code></pre>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../../Protocols/SecureMessaging.html">SecureMessaging</a></span><span class="p">,</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt"><a href="../../Classes/KeyAgreement/Error.html">Error</a></span><span class="o">&gt;</span></code></pre>
 
                           </div>
                         </div>
@@ -176,7 +171,7 @@
                         </div>
                         <div>
                           <h4>Return Value</h4>
-                          <p>When successful PaceKey both this application and the card agreed on.</p>
+                          <p>Publisher that when successful emits PaceKey both this application and the card agreed on.</p>
                         </div>
                       </section>
                     </div>
@@ -210,12 +205,6 @@
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Classes/CardReaderControllerObjcWrapper.html">CardReaderControllerObjcWrapper</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Classes/Executable.html">Executable</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Classes/Future.html">Future</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Classes/HealthCard.html">HealthCard</a>
@@ -262,15 +251,6 @@
                 <li class="nav-group-task">
                   <a href="../../Classes/ProviderDescriptor.html">ProviderDescriptor</a>
                 </li>
-                <li class="nav-group-task">
-                  <a href="../../Classes/SecureCardChannel.html">SecureCardChannel</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Classes/SecureHealthCard.html">SecureHealthCard</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Classes/UnitFuture.html">UnitFuture</a>
-                </li>
               </ul>
             </li>
             <li class="nav-group-name">
@@ -288,6 +268,9 @@
                   <a href="../../Enums/AutCertInfo.html">AutCertInfo</a>
                 </li>
                 <li class="nav-group-task">
+                  <a href="../../Enums/CardAid.html">CardAid</a>
+                </li>
+                <li class="nav-group-task">
                   <a href="../../Enums/CardError.html">CardError</a>
                 </li>
                 <li class="nav-group-task">
@@ -298,18 +281,6 @@
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Enums/ECPoint/InvalidArgument.html">– InvalidArgument</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Enums/Executor.html">Executor</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Enums/FutureError.html">FutureError</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Enums/FutureEvent.html">FutureEvent</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Enums/FutureEvent/Error.html">– Error</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Enums/HealthCardPropertyType.html">HealthCardPropertyType</a>
@@ -348,12 +319,6 @@
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Extensions/AES128PaceKey/Error.html">– Error</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Extensions/ASN1Kit.html">ASN1Kit</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Extensions/ASN1Kit/ObjectIdentifier.html">– ObjectIdentifier</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Extensions/BigInt.html">BigInt</a>
@@ -420,12 +385,6 @@
                   <a href="../../Protocols/CommandType.html">CommandType</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../../Protocols/ExecutorType.html">ExecutorType</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Protocols/FutureType.html">FutureType</a>
-                </li>
-                <li class="nav-group-task">
                   <a href="../../Protocols/HealthCardCommandType.html">HealthCardCommandType</a>
                 </li>
                 <li class="nav-group-task">
@@ -442,6 +401,9 @@
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Protocols/ResponseType.html">ResponseType</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../../Protocols.html#/s:17OpenHealthCardKit06SecurebC4TypeP">SecureHealthCardType</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Protocols/SecureMessaging.html">SecureMessaging</a>
@@ -551,7 +513,13 @@
                   <a href="../../Structs/GemCvCertificate/Tag.html">– Tag</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../../Structs.html#/s:17OpenHealthCardKit13HbaFileSystemV">HbaFileSystem</a>
+                  <a href="../../Structs/HbaFileSystem.html">HbaFileSystem</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../../Structs/HbaFileSystem/EF.html">– EF</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../../Structs/HbaFileSystem/DF.html">– DF</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../../Structs/HealthCardCommand.html">HealthCardCommand</a>
@@ -718,16 +686,7 @@
                   <a href="../../Typealiases.html#/s:17OpenHealthCardKit22AutCertificateResponsea">AutCertificateResponse</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../../Typealiases.html#/s:17OpenHealthCardKit8Callablea">Callable</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Typealiases.html#/s:17OpenHealthCardKit8Consumera">Consumer</a>
-                </li>
-                <li class="nav-group-task">
                   <a href="../../Typealiases.html#/s:17OpenHealthCardKit18ECPointCoordinatesa">ECPointCoordinates</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../../Typealiases.html#/s:17OpenHealthCardKit8Functiona">Function</a>
                 </li>
               </ul>
             </li>
@@ -736,7 +695,7 @@
       </div>
       <div class="footer-wrapper">
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="http://www.gematik.de" target="_blank" rel="external">gematik GmbH</a>. All rights reserved. (Last updated: 2020-04-22)</p>
+          <p>&copy; 2020 <a class="link" href="http://www.gematik.de" target="_blank" rel="external">gematik GmbH</a>. All rights reserved. (Last updated: 2020-06-16)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </div>

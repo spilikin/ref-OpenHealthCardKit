@@ -319,6 +319,116 @@ Note: implementers may choose to hold a weak reference</p>
                   <li class="item">
                     <div>
                       <code>
+                      <a name="/s:17OpenHealthCardKit0C11ChannelTypePAAE09determineC3Aid12writeTimeout04readJ07Combine12AnyPublisherVyAA0cH0Os5Error_pGSd_SdtF"></a>
+                      <a name="//apple_ref/swift/Method/determineCardAid(writeTimeout:readTimeout:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:17OpenHealthCardKit0C11ChannelTypePAAE09determineC3Aid12writeTimeout04readJ07Combine12AnyPublisherVyAA0cH0Os5Error_pGSd_SdtF">determineCardAid(writeTimeout:readTimeout:)</a>
+                      </code>
+                        <span class="declaration-note">
+                          Extension method
+                        </span>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Determines the <code><a href="../Enums/CardAid.html">CardAid</a></code> of the card either by
+using the NFCISO7816Tag.initialSelectedAID when this card is connected via NFC or
+selecting the MF.root application and requesting its application identifier.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">determineCardAid</span><span class="p">(</span><span class="nv">writeTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span><span class="p">,</span> <span class="nv">readTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span><span class="p">)</span>
+                <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Enums/CardAid.html">CardAid</a></span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>writeTimeout</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>time in seconds. Default: 30</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>readTimeout</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>time in seconds. Default: 30</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>Publisher that emits the ApplicationIdentifier of the initial application of this card.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:17OpenHealthCardKit0C11ChannelTypePAAE25readKeyAgreementAlgorithm7cardAid12writeTimeout0gN07Combine12AnyPublisherVyAA0hI0C0J0Os5Error_pGAA0cL0OSg_S2dtF"></a>
+                      <a name="//apple_ref/swift/Method/readKeyAgreementAlgorithm(cardAid:writeTimeout:readTimeout:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:17OpenHealthCardKit0C11ChannelTypePAAE25readKeyAgreementAlgorithm7cardAid12writeTimeout0gN07Combine12AnyPublisherVyAA0hI0C0J0Os5Error_pGAA0cL0OSg_S2dtF">readKeyAgreementAlgorithm(cardAid:writeTimeout:readTimeout:)</a>
+                      </code>
+                        <span class="declaration-note">
+                          Extension method
+                        </span>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">readKeyAgreementAlgorithm</span><span class="p">(</span>
+        <span class="nv">cardAid</span><span class="p">:</span> <span class="kt"><a href="../Enums/CardAid.html">CardAid</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+        <span class="nv">writeTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span><span class="p">,</span>
+        <span class="nv">readTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/KeyAgreement.html">KeyAgreement</a></span><span class="o">.</span><span class="kt">Algorithm</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
                       <a name="/s:17OpenHealthCardKit0C11ChannelTypePAAE22expectedLengthWildcardSivp"></a>
                       <a name="//apple_ref/swift/Property/expectedLengthWildcard" class="dashAnchor"></a>
                       <a class="token" href="#/s:17OpenHealthCardKit0C11ChannelTypePAAE22expectedLengthWildcardSivp">expectedLengthWildcard</a>
@@ -349,9 +459,9 @@ Note: implementers may choose to hold a weak reference</p>
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/s:17OpenHealthCardKit0C11ChannelTypePAAE04readcF012writeTimeout0gI0AA10ExecutableCyAA0bc8PropertyF0OGSd_SdtF"></a>
-                      <a name="//apple_ref/swift/Method/readCardType(writeTimeout:readTimeout:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:17OpenHealthCardKit0C11ChannelTypePAAE04readcF012writeTimeout0gI0AA10ExecutableCyAA0bc8PropertyF0OGSd_SdtF">readCardType(writeTimeout:readTimeout:)</a>
+                      <a name="/s:17OpenHealthCardKit0C11ChannelTypePAAE04readcF07cardAid12writeTimeout0gK07Combine12AnyPublisherVyAA0bc8PropertyF0Os5Error_pGAA0cI0OSg_S2dtF"></a>
+                      <a name="//apple_ref/swift/Method/readCardType(cardAid:writeTimeout:readTimeout:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:17OpenHealthCardKit0C11ChannelTypePAAE04readcF07cardAid12writeTimeout0gK07Combine12AnyPublisherVyAA0bc8PropertyF0Os5Error_pGAA0cI0OSg_S2dtF">readCardType(cardAid:writeTimeout:readTimeout:)</a>
                       </code>
                         <span class="declaration-note">
                           Extension method
@@ -370,8 +480,11 @@ or trying to read EF.Version2.</p>
                           <h4>Declaration</h4>
                           <div class="language">
                             <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">readCardType</span><span class="p">(</span><span class="nv">writeTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span><span class="p">,</span> <span class="nv">readTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span><span class="p">)</span>
-                <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Executable.html">Executable</a></span><span class="o">&lt;</span><span class="kt"><a href="../Enums/HealthCardPropertyType.html">HealthCardPropertyType</a></span><span class="o">&gt;</span></code></pre>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">readCardType</span><span class="p">(</span>
+        <span class="nv">cardAid</span><span class="p">:</span> <span class="kt"><a href="../Enums/CardAid.html">CardAid</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+        <span class="nv">writeTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span><span class="p">,</span>
+        <span class="nv">readTimeout</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mf">30.0</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AnyPublisher</span><span class="o">&lt;</span><span class="kt"><a href="../Enums/HealthCardPropertyType.html">HealthCardPropertyType</a></span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span></code></pre>
 
                           </div>
                         </div>
@@ -382,12 +495,25 @@ or trying to read EF.Version2.</p>
                               <tr>
                                 <td>
                                   <code>
+                                  <em>cardAid</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p><code><a href="../Structs/ApplicationIdentifier.html">ApplicationIdentifier</a></code> of MF (root) where EF.Version2 is expected to be in.
+        When now known then the function determines it by itself.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
                                   <em>writeTimeout</em>
                                   </code>
                                 </td>
                                 <td>
                                   <div>
-                                    <p>interval in seconds</p>
+                                    <p>interval in seconds. Default: 30</p>
                                   </div>
                                 </td>
                               </tr>
@@ -399,7 +525,7 @@ or trying to read EF.Version2.</p>
                                 </td>
                                 <td>
                                   <div>
-                                    <p>interval in seconds</p>
+                                    <p>interval in seconds. Default: 30</p>
                                   </div>
                                 </td>
                               </tr>
@@ -408,7 +534,7 @@ or trying to read EF.Version2.</p>
                         </div>
                         <div>
                           <h4>Return Value</h4>
-                          <p>Executor that emits a HealthCardPropertyType on successful recognition of the AID and EF.Version2</p>
+                          <p>Publisher that emits a HealthCardPropertyType on successful recognition of the AID and EF.Version2</p>
                         </div>
                       </section>
                     </div>
@@ -442,12 +568,6 @@ or trying to read EF.Version2.</p>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Classes/CardReaderControllerObjcWrapper.html">CardReaderControllerObjcWrapper</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/Executable.html">Executable</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/Future.html">Future</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Classes/HealthCard.html">HealthCard</a>
@@ -494,15 +614,6 @@ or trying to read EF.Version2.</p>
                 <li class="nav-group-task">
                   <a href="../Classes/ProviderDescriptor.html">ProviderDescriptor</a>
                 </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/SecureCardChannel.html">SecureCardChannel</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/SecureHealthCard.html">SecureHealthCard</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Classes/UnitFuture.html">UnitFuture</a>
-                </li>
               </ul>
             </li>
             <li class="nav-group-name">
@@ -520,6 +631,9 @@ or trying to read EF.Version2.</p>
                   <a href="../Enums/AutCertInfo.html">AutCertInfo</a>
                 </li>
                 <li class="nav-group-task">
+                  <a href="../Enums/CardAid.html">CardAid</a>
+                </li>
+                <li class="nav-group-task">
                   <a href="../Enums/CardError.html">CardError</a>
                 </li>
                 <li class="nav-group-task">
@@ -530,18 +644,6 @@ or trying to read EF.Version2.</p>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Enums/ECPoint/InvalidArgument.html">– InvalidArgument</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/Executor.html">Executor</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/FutureError.html">FutureError</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/FutureEvent.html">FutureEvent</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Enums/FutureEvent/Error.html">– Error</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Enums/HealthCardPropertyType.html">HealthCardPropertyType</a>
@@ -580,12 +682,6 @@ or trying to read EF.Version2.</p>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Extensions/AES128PaceKey/Error.html">– Error</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/ASN1Kit.html">ASN1Kit</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Extensions/ASN1Kit/ObjectIdentifier.html">– ObjectIdentifier</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Extensions/BigInt.html">BigInt</a>
@@ -652,12 +748,6 @@ or trying to read EF.Version2.</p>
                   <a href="../Protocols/CommandType.html">CommandType</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Protocols/ExecutorType.html">ExecutorType</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Protocols/FutureType.html">FutureType</a>
-                </li>
-                <li class="nav-group-task">
                   <a href="../Protocols/HealthCardCommandType.html">HealthCardCommandType</a>
                 </li>
                 <li class="nav-group-task">
@@ -674,6 +764,9 @@ or trying to read EF.Version2.</p>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Protocols/ResponseType.html">ResponseType</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols.html#/s:17OpenHealthCardKit06SecurebC4TypeP">SecureHealthCardType</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Protocols/SecureMessaging.html">SecureMessaging</a>
@@ -783,7 +876,13 @@ or trying to read EF.Version2.</p>
                   <a href="../Structs/GemCvCertificate/Tag.html">– Tag</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Structs.html#/s:17OpenHealthCardKit13HbaFileSystemV">HbaFileSystem</a>
+                  <a href="../Structs/HbaFileSystem.html">HbaFileSystem</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Structs/HbaFileSystem/EF.html">– EF</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Structs/HbaFileSystem/DF.html">– DF</a>
                 </li>
                 <li class="nav-group-task">
                   <a href="../Structs/HealthCardCommand.html">HealthCardCommand</a>
@@ -950,16 +1049,7 @@ or trying to read EF.Version2.</p>
                   <a href="../Typealiases.html#/s:17OpenHealthCardKit22AutCertificateResponsea">AutCertificateResponse</a>
                 </li>
                 <li class="nav-group-task">
-                  <a href="../Typealiases.html#/s:17OpenHealthCardKit8Callablea">Callable</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Typealiases.html#/s:17OpenHealthCardKit8Consumera">Consumer</a>
-                </li>
-                <li class="nav-group-task">
                   <a href="../Typealiases.html#/s:17OpenHealthCardKit18ECPointCoordinatesa">ECPointCoordinates</a>
-                </li>
-                <li class="nav-group-task">
-                  <a href="../Typealiases.html#/s:17OpenHealthCardKit8Functiona">Function</a>
                 </li>
               </ul>
             </li>
@@ -968,7 +1058,7 @@ or trying to read EF.Version2.</p>
       </div>
       <div class="footer-wrapper">
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="http://www.gematik.de" target="_blank" rel="external">gematik GmbH</a>. All rights reserved. (Last updated: 2020-04-22)</p>
+          <p>&copy; 2020 <a class="link" href="http://www.gematik.de" target="_blank" rel="external">gematik GmbH</a>. All rights reserved. (Last updated: 2020-06-16)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </div>
