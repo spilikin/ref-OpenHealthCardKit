@@ -38,7 +38,7 @@ let package = Package(
         .package(url: "http://github.com/SwiftCommon/DataKit", from: "1.0.2"),
         .package(url: "http://github.com/attaswift/BigInt", from: "5.0.0"),
         .package(url: "https://github.com/spilikin/ASN1Kit.git", from: "1.0.7"),
-        .package(name: "GemCommonsKit", url: "https://github.com/gematik/ref-GemCommonsKit.git", from: "1.1.0")
+        .package(name: "GemCommonsKit", url: "https://github.com/spilikin/ref-GemCommonsKit.git", from: "1.1.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
